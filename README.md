@@ -27,7 +27,7 @@ from baseos conflicts with curl provided by curl-7.76.1-26.el9_3.2.0.1.x86_64 fr
 The curl package has been installed by default, and it is required by dnf package. While bootstrap-aio.sh trying to install curl-minimal,
 it failed like above.
 
-Change file **"ests/roles/bootstrap-host/vars/redhat.yml"**, comment the line of **"/usr/bin/curl"**, then it worked fine.
+Change file **"tests/roles/bootstrap-host/vars/redhat.yml"**, comment the line of **"/usr/bin/curl"**, then it worked fine.
 
 After the installation is done, then we can start to run the ansible [laybook to setup:
 
