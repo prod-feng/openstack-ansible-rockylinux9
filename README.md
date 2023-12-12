@@ -29,7 +29,7 @@ it failed like above.
 
 Change file **"tests/roles/bootstrap-host/vars/redhat.yml"**, comment the line of **"/usr/bin/curl"**, then it worked fine.
 
-After the installation is done, then we can start to run the ansible [laybook to setup:
+After the installation is done, then we can start to run the ansible playbook to setup:
 
 Before that, we need to change one file **"/etc/ansible/roles/openstack_hosts/vars/redhat-9.yml"**, which has the same "curl" conflicts issue.
 Comment the line of **"curl"**.
