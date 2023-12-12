@@ -1,5 +1,5 @@
 # openstack-ansible-rockylinux9
-Rocky Linux 9.3, 5.14.0-362.8.1.el9_3.x86_64. All in one, Openstact-ansible 27.0.0.0rc1.
+Rocky Linux 9.3, 5.14.0-362.8.1.el9_3.x86_64(Installed from ISO file on to bare metal server). All in one, Openstact-ansible 27.0.0.0rc1.
 
 Disable SELinux. (https://docs.openstack.org/openstack-ansible/latest/user/aio/quickstart.html)
 
