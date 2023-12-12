@@ -34,6 +34,8 @@ After the installation is done, then we can start to run the ansible [laybook to
 Before that, we need to change one file **"/etc/ansible/roles/openstack_hosts/vars/redhat-9.yml"**, which has the same "curl" conflicts issue.
 Comment the line of **"curl"**.
 
+**(see the bug report here: https://bugs.launchpad.net/openstack-ansible/+bug/2046172)**
+
 ```
 openstack-ansible setup-hosts.yml
 openstack-ansible setup-infrastructure.yml
